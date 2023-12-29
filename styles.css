@@ -49,18 +49,18 @@ body {
     margin: 10px;
 }
 .score {
-    height: 18vh;
-    width: 14vw;
+    height: 160px;
+    width: 150px;
     background: linear-gradient(var(--Violet-blue), var(--Persian-blue)) ;
     border-radius: 50%;
     display: inline-block;
-    margin: 10px;
+    margin-bottom: 15px;
 }
 .score-result {
     text-align: center;
     font-size: 60px;
     font-weight: bold;
-    margin: 20px;
+    margin: 10px;
     color: white;
 }
 .score p { 
@@ -88,14 +88,15 @@ h2 {
 }
 .summary {
     padding-top: 19px;
-    margin: 10px 160px 20px 0;
+    margin: 10px 160px 5px 0;
     color: var(--Dark-gray-blue);
     font-size: 18px;
 }
 .summary-container {
-    width: 18vw;
-    height: 35vh;
+    width: 245px;
+    height: 300px;
     margin: 0 0 0 30px;
+    
 }
 .reaction {
     background: hsl(0, 100%, 67%, 0.1);
@@ -105,7 +106,7 @@ h2 {
     height: 45px;
     border-radius: 8px;
     color: var(--Light-red);
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     margin-top: 10px;
     font-weight: 700;
     
@@ -118,7 +119,7 @@ h2 {
     border-radius: 8px;
     background: hsl(39, 100%, 56%, 0.1);
     color: var(--Orangey-yellow);
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     margin-top: 10px;
     font-weight: 700;
 }
@@ -130,7 +131,7 @@ h2 {
     border-radius: 8px;
     background: hsl(166, 100%, 37%, 0.1);
     color: var(--Green-teal);
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     margin-top: 10px;
     font-weight: 700;
 }
@@ -142,7 +143,7 @@ h2 {
     border-radius: 8px;
     background: hsl(234, 85%, 45%, 0.1);
     color: var(--cobalt-blue);
-    margin-bottom: 10px;
+    margin-bottom: 15px;
     margin-top: 10px;
     font-weight: 700;
 }
@@ -161,19 +162,14 @@ h2 {
 
 .btn {
     border-radius: 30px;
-    width: 17vw;
-    height: 5vh;
-    background: var(--Dark-gray-blue);
+    width: 240px;
+    height: 45px;
+    background-color: var(--Dark-gray-blue);
     color: var(--White);
     cursor: pointer;
-    overflow: hidden;
     margin-top: 15px;
 }
 .btn:hover,
 .btn:focus { 
       background: linear-gradient(var(--Light-royal-blue), var(--Violet-blue))
     }
-
-
-
-
