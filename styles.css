@@ -50,7 +50,7 @@ body {
 }
 .score {
     height: 160px;
-    width: 150px;
+    width: 160px;
     background: linear-gradient(var(--Violet-blue), var(--Persian-blue)) ;
     border-radius: 50%;
     display: inline-block;
