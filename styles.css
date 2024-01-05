@@ -168,6 +168,7 @@ h2 {
     color: var(--White);
     cursor: pointer;
     margin-top: 15px;
+    border: none;
 }
 .btn:hover,
 .btn:focus { 
